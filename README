@@ -1,0 +1,7 @@
+Barebones, command-line Java RMI implementation of an in-house calendar system!
+
+Compile with javac *.java.
+Ensure policy.txt is in directory.
+Run rmiregistry &
+Run server with java -Djava.security.policy=policy.txt CalendarServer
+Run client with java -Djava.security.policy=policy.txt UserInterface [yourusername] 
